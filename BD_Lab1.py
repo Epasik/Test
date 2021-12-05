@@ -13,10 +13,12 @@ from tkinter import messagebox
 
 client = redis.Redis(host="192.168.112.103", password="student")
 
-items = {"kay1": "вапр", 
+items = {"kay1": "вапр",
+ "пвап": "апвап"
+ 
+ 
+ }
 
-
-        "вампр": "вапр"}
 
 window = tk.Tk()
 window.title("New window")
